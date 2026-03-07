@@ -180,5 +180,5 @@ class Favorites_characters(db.Model):
         return {
             "id": self.id,
             "user_id": self.user_id,
-            "character_id": self.character_id,
+            "characters_id": self.characters_id,
         }
